@@ -16,7 +16,7 @@ RUN apt-get update \
     && apt-get -y install --no-install-recommends apt-utils dialog 2>&1 \
     #
     # Install git, process tools, lsb-release (common in install instructions for CLIs)
-    && apt-get -y install git procps lsb-release \
+    && apt-get -y install git procps lsb-release icu-devtools \ 
     #
     # Allow for a consistant java home location for settings - image is changing over time
     && if [ ! -d "/docker-java-home" ]; then ln -s "${JAVA_HOME}" /docker-java-home; fi \

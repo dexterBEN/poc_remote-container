@@ -21,6 +21,7 @@
 
 	"extensions": [
 		"vscjava.vscode-java-pack",
-		"redhat.vscode-xml"
+		"redhat.vscode-xml",
+		"ms-vsliveshare.vsliveshare-pack"
 	]
 }
